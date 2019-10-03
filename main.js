@@ -52,7 +52,7 @@ window.onload = function () {
             var authName = myJson['docs'][i].author_name[0];
         }
 
-        console.log(myJson['docs'][i].author_name);
+        //console.log(myJson['docs'][i].author_name);
         
         //author search
         const authURL = await fetch('https://openlibrary.org/search.json?author=' + authKey);
